@@ -1,0 +1,25 @@
+a {
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #00f;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs > a {
+    flex: 1 1 auto;
+}
+
+.tabs > a.active {
+    background-color: #00f;
+    color: #fff
+}
