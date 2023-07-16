@@ -1,0 +1,19 @@
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.icons-item {
+    display: flex;
+    align-items: center;
+    border: solid 2px #000;
+    gap: 30px;
+    padding: 15px;
+    flex-direction: column;
+}
